@@ -1,3 +1,8 @@
+variable "hostname" {
+  type    = string
+  default = ""
+}
+
 variable "plan" {
   type = string
 }
